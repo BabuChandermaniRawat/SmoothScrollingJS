@@ -30,7 +30,13 @@ function smoothScroll(target, duration){
 
 // smoothScroll('.section1',1000);
 var section1 = document.querySelector('.section1');
+var section2 = document.querySelector('.section2');
+
 section1.addEventListener('click', function(){
+    smoothScroll('.section2',1000);
+});
+
+section2.addEventListener('click', function(){
     smoothScroll('.section1',1000);
 });
 
