@@ -1,0 +1,21 @@
+.box1{
+    height: 100vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+/* .section2 {
+    text-decoration: none;
+    text-shadow: black;
+    padding-right: 30%;
+    /* padding-block: 20%; */
